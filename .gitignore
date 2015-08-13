@@ -1,2 +1,8 @@
 _site
 .sass-cache
+node_modules
+semantic.json
+semantic/dist/components
+semantic/src
+semantic/tasks
+semantic/gulpfile.js
