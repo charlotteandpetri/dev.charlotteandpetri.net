@@ -12,3 +12,5 @@ github_username:  ""
 
 # Build settings
 markdown: kramdown
+
+# exclude: [node_modules, semantic.json, semantic/dist/components, semantic/src, semantic/tasks, semantic/gulpfile.js]
