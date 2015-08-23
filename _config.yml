@@ -2,15 +2,35 @@
 title: Laihonen Family
 email: pietu@charlotteandpetri.net
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Family Laihonen personal website. Stories, images and other stuff by Petri, Saku and Charlotte. 
+  We currently live in a beautiful city of Helsinki, Finland.
+copyright : > #
+  Copyright 2015 Family Laihonen
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dev.charlotteandpetri.net" # the base hostname & protocol for your site
+# url: "http://charlotteandpetri.net" # the base hostname & protocol for your site
 twitter_username: ""
 github_username:  ""
 
 # Build settings
 markdown: kramdown
 
-# exclude: [node_modules, semantic.json, semantic/dist/components, semantic/src, semantic/tasks, semantic/gulpfile.js]
+encoding: UTF-8
+timezone: Europe/Helsinki
+exclude: ['Gemfile', 'Gemfile.lock']
+sass:
+  sass_dir: '_sass'
+navigation:
+      - text: Home
+        url: /
+      - text: Petri
+        url: /petri/
+      - text: Charlotte
+        url: /charlotte/
+      - text: Saku
+        url: /saku/ 
+      - text: Blog
+        url: /blog/ 
+      - text: Images
+        url: /images/ 
+      - text: Contact
+        url: /contact/
